@@ -1,0 +1,22 @@
+{
+  "name": "cypresscucumbertest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^17.2.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.0",
+    "cypress": "^12.14.0",
+    "cypress-xpath": "^2.0.1",
+    "ts-loader": "^9.4.3"
+  },
+  "cypress-cucumber-prepocesso": {
+    "stepDefinitions": "cypress/support/step_definitions/**/*.js"
+  }
+}
